@@ -300,6 +300,12 @@ declare namespace che {
     usedResources?: string;
   }
 
+  export interface IWorkspaceSettings {
+    supportedRecipeTypes: string;
+    cheWorkspacePluginRegistryUrl: string;
+    [propName: string]: string | boolean;
+  }
+
   export interface IWorkspaceAttributes {
     created: number;
     updated?: number;

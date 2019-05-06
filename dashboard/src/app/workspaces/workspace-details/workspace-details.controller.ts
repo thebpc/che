@@ -17,6 +17,7 @@ import IdeSvc from '../../ide/ide.service';
 import {WorkspacesService} from '../workspaces.service';
 import {ICheEditModeOverlayConfig} from '../../../components/widget/edit-mode-overlay/che-edit-mode-overlay.directive';
 import {IEnvironmentManagerMachine} from '../../../components/api/environment/environment-manager-machine';
+import {CheBranding} from '../../../components/branding/che-branding.factory';
 
 export  interface IInitData {
   namespaceId: string;
@@ -169,12 +170,20 @@ export class WorkspaceDetailsController {
   }
 
   /**
-   * Returns `true` if the recipe of default environment of the workspace has supported recipe type
+   * Returns `true` if supported.
    *
    * @returns {boolean}
    */
   get isSupported(): boolean {
     return this.workspacesService.isSupported(this.workspaceDetails);
+  }
+
+  isSupportedVersion(): boolean {
+    return this.workspacesService.isSupportedVersion(this.workspaceDetails);
+  }
+
+  isSupportedRecipeType(): boolean {
+    return this.workspacesService.isSupportedRecipeType(this.workspaceDetails);
   }
 
   /**
@@ -327,8 +336,12 @@ export class WorkspaceDetailsController {
    * @returns {string}
    */
   getOverlayMessage(failedTabs?: string[]): string {
-    if (this.isSupported === false) {
+    if (!this.isSupportedRecipeType()) {
       return `Current infrastructure doesn't support this workspace recipe type.`;
+    }
+
+    if (!this.isSupportedVersion()) {
+      return `This workspace is using old definition format which is not compatible anymore.`;
     }
 
     if (this.isSwitchToPlugins()) {
