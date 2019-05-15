@@ -162,10 +162,7 @@
                 }
               },
               "then": {
-                "required": [
-                  "id"
-                ],
-                "additionalProperties": false,
+                "additionalProperties": true,
                 "properties": {
                   "type": {},
                   "alias": {},
@@ -187,6 +184,62 @@
                       "129M",
                       "123Mi"
                     ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "cheEditor"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "id"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "type": {},
+                  "alias": {},
+                  "id": {},
+                  "memoryLimit": {}
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "chePlugin"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "id"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "type": {},
+                  "alias": {},
+                  "id": {},
+                  "memoryLimit": {},
+                  "preferences": {
+                    "type": "object",
+                    "description": "Additional plugin preferences",
+                    "examples": [
+                      "{\"java.home\": \"/home/user/jdk11\", \"java.jdt.ls.vmargs\": \"-Xmx1G\"}"
+                    ],
+                    "additionalProperties": {
+                      "type": "string"
+                    }
                   }
                 }
               }
