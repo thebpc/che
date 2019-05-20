@@ -163,6 +163,9 @@
               },
               "then": {
                 "additionalProperties": true,
+                "required": [
+                  "id"
+                ],
                 "properties": {
                   "type": {},
                   "alias": {},
@@ -199,9 +202,6 @@
                 }
               },
               "then": {
-                "required": [
-                  "id"
-                ],
                 "additionalProperties": false,
                 "properties": {
                   "type": {},
@@ -222,9 +222,6 @@
                 }
               },
               "then": {
-                "required": [
-                  "id"
-                ],
                 "additionalProperties": false,
                 "properties": {
                   "type": {},
