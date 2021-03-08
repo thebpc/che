@@ -228,14 +228,10 @@ angular-cookies@1.4.8:
   resolved "https://registry.yarnpkg.com/angular-cookies/-/angular-cookies-1.4.8.tgz#07db4bba0234053c64123e958f1ad317d8fd1ed7"
   integrity sha1-B9tLugI0BTxkEj6VjxrTF9j9Htc=
 
-angular-file-upload@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/angular-file-upload/-/angular-file-upload-2.0.0.tgz#b0f8c7fdd1f3b519ef1ca5894aa6896d45732025"
-  integrity sha1-sPjH/dHztRnvHKWJSqaJbUVzICU=
-  dependencies:
-    gulp "^3.9.0"
-    webpack "^1.10.1"
-    webpack-stream "^2.0.0"
+angular-file-upload@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/angular-file-upload/-/angular-file-upload-2.0.1.tgz#006189dbaa198442b43d64e8fcd4ebe65740b574"
+  integrity sha1-AGGJ26oZhEK0PWTo/NTr5ldAtXQ=
 
 angular-filter@0.5.4:
   version "0.5.4"
@@ -4705,7 +4701,7 @@ gulp-util@~2.2.0, gulp-util@~2.2.14:
     through2 "^0.5.0"
     vinyl "^0.2.1"
 
-gulp@^3.9.0, gulp@~3.9.0:
+gulp@~3.9.0:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/gulp/-/gulp-3.9.1.tgz#571ce45928dd40af6514fc4011866016c13845b4"
   integrity sha1-VxzkWSjdQK9lFPxAEYZgFsE4RbQ=
@@ -11368,19 +11364,6 @@ webpack-dev-middleware@^1.12.0:
     range-parser "^1.0.3"
     time-stamp "^2.0.0"
 
-webpack-stream@^2.0.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/webpack-stream/-/webpack-stream-2.3.0.tgz#b1ec86ea5a665e9f5213c8e310a45af5189b8ec8"
-  integrity sha1-seyG6lpmXp9SE8jjEKRa9Ribjsg=
-  dependencies:
-    gulp-util ">=3.0.0 <3.1.0-0"
-    lodash.clone ">=3.0.0 <3.1.0-0"
-    memory-fs ">=0.2.0 <0.3.0-0"
-    through ">=2.3.4 <2.4.0-0"
-    vinyl ">=0.5.0 <0.6.0-0"
-    vinyl-sourcemaps-apply "^0.2.0"
-    webpack ">=1.9.0 <2.0.0-0"
-
 webpack-stream@~2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/webpack-stream/-/webpack-stream-2.1.1.tgz#81422d5863c28c70c011036f518583ad95729410"
@@ -11393,7 +11376,7 @@ webpack-stream@~2.1.0:
     vinyl ">=0.5.0 <0.6.0-0"
     webpack ">=1.9.0 <2.0.0-0"
 
-"webpack@>=1.9.0 <2.0.0-0", webpack@^1.10.1, webpack@^1.12.11:
+"webpack@>=1.9.0 <2.0.0-0", webpack@^1.12.11:
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-1.15.0.tgz#4ff31f53db03339e55164a9d468ee0324968fe98"
   integrity sha1-T/MfU9sDM55VFkqdRo7gMklo/pg=
