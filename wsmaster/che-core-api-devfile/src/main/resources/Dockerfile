@@ -14,7 +14,7 @@
 # Build step: $ docker build -t eclipse-che-devfile-docs
 # It builds an archive file that can be used by doing later
 #  $  docker run --rm eclipse-che-devfile-docs | tar -C target/docs/ -xf -
-FROM node:8.10.0
+FROM node:8.17.0
 
 RUN apt-get update && \
     apt-get install -y git \
