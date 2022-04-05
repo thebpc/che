@@ -264,12 +264,12 @@ angular-mocks@1.4.8:
   resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.4.8.tgz#1497426d480862ca8b1f637e9c2fc1a1df664208"
   integrity sha1-FJdCbUgIYsqLH2N+nC/Bod9mQgg=
 
-angular-moment@0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/angular-moment/-/angular-moment-0.9.0.tgz#12c0bb767779844375b4523640f167dbb603a1e1"
-  integrity sha1-EsC7dnd5hEN1tFI2QPFn27YDoeE=
+angular-moment@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/angular-moment/-/angular-moment-1.0.0.tgz#6f549023f0bf213d17261f66159fd1d12540eaba"
+  integrity sha1-b1SQI/C/IT0XJh9mFZ/R0SVA6ro=
   dependencies:
-    moment ">=2.8.0 <2.10.0"
+    moment ">=2.8.0 <3.0.0"
 
 angular-resource@1.4.8:
   version "1.4.8"
@@ -7433,10 +7433,10 @@ modify-filename@^1.0.0, modify-filename@^1.1.0:
   resolved "https://registry.yarnpkg.com/modify-filename/-/modify-filename-1.1.0.tgz#9a2dec83806fbb2d975f22beec859ca26b393aa1"
   integrity sha1-mi3sg4Bvuy2XXyK+7IWcoms5OqE=
 
-"moment@>=2.8.0 <2.10.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.9.0.tgz#77ec1175fa294f42627f10c8e6de6302c036f6d5"
-  integrity sha1-d+wRdfopT0JifxDI5t5jAsA29tU=
+"moment@>=2.8.0 <3.0.0":
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
+  integrity sha512-UgzG4rvxYpN15jgCmVJwac49h9ly9NurikMWGPdVxm8GZD6XjkKPxDTjQQ43gtGgnV3X0cAyWDdP2Wexoquifg==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
