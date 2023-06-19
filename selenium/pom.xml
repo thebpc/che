@@ -30,7 +30,7 @@
 
     <properties>
         <!-- fix of conflict of seleniumhq 3.0.1 with guava 27.0.1-jre (https://github.com/eclipse/che/issues/12184) -->
-        <com.google.guava.version>20.0</com.google.guava.version>
+        <com.google.guava.version>32.0.0-android</com.google.guava.version>
     </properties>
 
     <dependencyManagement>
