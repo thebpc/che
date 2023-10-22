@@ -314,10 +314,10 @@ angular@*:
   resolved "https://registry.yarnpkg.com/angular/-/angular-1.7.5.tgz#d1c1c01c6f5dc835638f3f9aa51012857bdac49e"
   integrity sha512-760183yxtGzni740IBTieNuWLtPNAoMqvmC0Z62UoU0I3nqk+VJuO3JbQAXOyvo3Oy/ZsdNQwrSTh/B0OQZjNw==
 
-angular@1.4.8:
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/angular/-/angular-1.4.8.tgz#f4573d5019d21ebf44a6b5c28a14fbd9d5967449"
-  integrity sha1-9Fc9UBnSHr9EprXCihT72dWWdEk=
+angular@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/angular/-/angular-1.6.0.tgz#16c5edebd0a342046bd5281cca2decf04c40df76"
+  integrity sha512-2iYr9Jkh2HNQjKUnsF48ej+BdB93VA98blnc5t5XvaxPntjGKj4Lu1juZC+i7/5g8w7FeJ/dSSCuij2XquxrJQ==
 
 ansi-align@^1.1.0:
   version "1.1.0"
