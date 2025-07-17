@@ -11,7 +11,7 @@
 # use:
 #    docker run --rm --net=host eclipse/che-ip
 
-FROM alpine:3.4
+FROM alpine:3.22.1
 
 COPY /src/ /ip/
 ENTRYPOINT ["/ip/entrypoint.sh"]
