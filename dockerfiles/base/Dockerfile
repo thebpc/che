@@ -11,7 +11,7 @@
 # use:
 #    docker run eclipse/che-base
 
-FROM alpine:3.4
+FROM alpine:3.23.3
 
 ENV DOCKER_BUCKET get.docker.com
 ENV DOCKER_VERSION 1.11.2
